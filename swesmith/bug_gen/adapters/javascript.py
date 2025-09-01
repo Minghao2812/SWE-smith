@@ -11,7 +11,7 @@ JS_LANGUAGE = Language(tsjs.language())
 
 class JavaScriptEntity(CodeEntity):
     def _analyze_properties(self):
-        """Analyze JavaScript/TypeScript code properties."""
+        """Analyze JavaScript code properties."""
         node = self.node
 
         # Core entity types
